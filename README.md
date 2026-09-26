@@ -26,7 +26,7 @@ Oracle/Postgres/MySQL/Excel/PDF
 | Repo | Rol | Qué demuestra | Impacto |
 |---|---|---|---|
 | [ai-knowledge-platform-graphrag](https://github.com/Saxt35/ai-knowledge-platform-graphrag) | Architecture & AI | Diseño de arquitectura GraphRAG en 5 capas, ADRs, integración SPARQL + vector + OLAP | **Faithfulness 0.91 (RAGAS)**, reducción de hallucination, blueprint reutilizable |
-| [kyuubi-troubleshooting](https://github.com/Saxt35/kyuubi-troubleshooting) | Operations & RCA / Troubleshooting | RCA de caída en cascada multi-componente con runbook ejecutable y gobernanza operativa | **79.7GB limpiados**, recuperación de servicio en clúster de **4 nodes**, **3 componentes** restablecidos |
+| [kyuubi-troubleshooting](https://github.com/Saxt35/kyuubi-troubleshooting) | Operations & RCA / Troubleshooting | RCA de caída en cascada multi-componente con runbook ejecutable y gobernanza operativa | **79.7GB limpiados**, recuperación de servicio en clúster de **4 nodos**, **3 componentes** restablecidos |
 
 ---
 
@@ -70,7 +70,7 @@ Referencia: [ai-knowledge-platform-graphrag](https://github.com/Saxt35/ai-knowle
 ## Stack técnico (agrupado)
 
 - **Big Data**: HDFS, Hive, Spark, YARN, Kyuubi, Livy, Kafka  
-- **AI/RAG**: Jena Fuseki, pgvector, ClickHouse, GNN/HUG, PyTorch, Spark NLP/ML  
+- **AI/RAG**: Jena Fuseki, pgvector, ClickHouse, GNN/Hugging Face, PyTorch, Spark NLP/ML  
 - **Gobernanza**: Metabase (RBAC), catálogo transversal MDM  
 - **Portal**: Next.js, Node.js, PostgreSQL, Three.js 3D  
 - **Infra & Tools**: Docker, Docker Compose, Airflow, Celery, Zeppelin, Hue
