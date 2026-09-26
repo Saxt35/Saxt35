@@ -25,7 +25,7 @@ Oracle/Postgres/MySQL/Excel/PDF
 
 | Repo | Rol | Qué demuestra | Impacto |
 |---|---|---|---|
-| [ai-knowledge-platform-graphrag](https://github.com/Saxt35/ai-knowledge-platform-graphrag) | Architecture & AI | Diseño de arquitectura GraphRAG en 5 capas, ADRs, integración SPARQL + vector + OLAP | **Faithfulness 0.91 (RAGAS)**, reducción de hallucination, blueprint reutilizable |
+| [ai-knowledge-platform-graphrag](https://github.com/Saxt35/ai-knowledge-platform-graphrag) | Architecture & AI | Diseño de arquitectura GraphRAG en 5 capas, ADRs, integración SPARQL + vector + OLAP | **Faithfulness 0.91 (RAGAS)**, reducción de alucinaciones, blueprint reutilizable |
 | [kyuubi-troubleshooting](https://github.com/Saxt35/kyuubi-troubleshooting) | Operations & RCA / Troubleshooting | RCA de caída en cascada multi-componente con runbook ejecutable y gobernanza operativa | **79.7GB limpiados**, recuperación de servicio en clúster de **4 nodos**, **3 componentes** restablecidos |
 
 ---
@@ -61,7 +61,7 @@ Artefactos clave: `diagrams/architecture_anon.png`, `runbook/runbook.sh` (anonim
 4. **Knowledge**: Jena Fuseki + pgvector + ClickHouse + NER enrichments  
 5. **Portal**: Next.js + Node filter middleware → SPARQL + Vector + OLAP → Three.js 3D
 
-Métrica estrella: **Faithfulness 0.91 (RAGAS)** con reducción de respuestas alucinadas y trazabilidad técnica vía ADRs + diagrama anonimizado.
+Métrica estrella: **Faithfulness 0.91 (RAGAS)** en evaluación de consultas representativas del portal (SPARQL + vector + OLAP), con reducción de respuestas alucinadas y trazabilidad técnica vía ADRs + diagrama anonimizado.
 
 Referencia: [ai-knowledge-platform-graphrag](https://github.com/Saxt35/ai-knowledge-platform-graphrag)
 
