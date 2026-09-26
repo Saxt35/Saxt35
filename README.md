@@ -86,7 +86,7 @@ Modelo de datos MDM transversal: **Oracle/Postgres/MySQL/Excel/PDF → catálogo
 ## Seguridad y buenas prácticas
 
 - Sanitización y anonimización operativa: `<HOST>`, `<PORT>`, `<USER>` en documentación y scripts  
-- Control de exposición por `.gitignore`: `private/`, `*.pdf`, `*.xlsx`
+- Higiene de repositorio con `.gitignore` para evitar agregar artefactos sensibles por error: `private/`, `*.pdf`, `*.xlsx`
 
 ---
 
