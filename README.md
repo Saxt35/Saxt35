@@ -18,7 +18,7 @@ Oracle/Postgres/MySQL/Excel/PDF
   → Metabase (RBAC por perfil)
   → Jena Fuseki + pgvector + ClickHouse + NER enrichments
   → Next.js + Node middleware
-  → SPARQL + Vector + OLAP + Tree.js 3D
+  → SPARQL + Vector + OLAP + Three.js 3D
 ```
 
 ## Repos estrella (Architecture + Operations)
@@ -59,7 +59,7 @@ Artefactos clave: `diagrams/architecture_anon.png`, `runbook/runbook.sh` (anonim
 2. **Compute**: Spark + YARN + Kyuubi (`jdbc:hive2://<HOST>:10009`)  
 3. **Governance**: Metabase con permisos por perfil  
 4. **Knowledge**: Jena Fuseki + pgvector + ClickHouse + NER enrichments  
-5. **Portal**: Next.js + Node filter middleware → SPARQL + Vector + OLAP → Tree.js 3D
+5. **Portal**: Next.js + Node filter middleware → SPARQL + Vector + OLAP → Three.js 3D
 
 Métrica estrella: **Faithfulness 0.91 (RAGAS)** con reducción de respuestas alucinadas y trazabilidad técnica vía ADRs + diagrama anon.
 
@@ -72,7 +72,7 @@ Referencia: [ai-knowledge-platform-graphrag](https://github.com/Saxt35/ai-knowle
 - **Big Data**: HDFS, Hive, Spark, YARN, Kyuubi, Livy, Kafka  
 - **AI/RAG**: Jena Fuseki, pgvector, ClickHouse, GNN/HUG, PyTorch, Spark NLP/ML  
 - **Gobernanza**: Metabase (RBAC), catálogo transversal MDM  
-- **Portal**: Next.js, Node.js, PostgreSQL, Tree.js 3D  
+- **Portal**: Next.js, Node.js, PostgreSQL, Three.js 3D  
 - **Infra & Tools**: Docker, Docker Compose, Airflow, Celery, Zeppelin, Hue
 
 ## Estructura de trabajo HASSERV / COMIMSA
