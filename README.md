@@ -61,7 +61,7 @@ Artefactos clave: `diagrams/architecture_anon.png`, `runbook/runbook.sh` (anonim
 4. **Knowledge**: Jena Fuseki + pgvector + ClickHouse + NER enrichments  
 5. **Portal**: Next.js + Node filter middleware → SPARQL + Vector + OLAP → Three.js 3D
 
-Métrica estrella: **Faithfulness 0.91 (RAGAS)** con reducción de respuestas alucinadas y trazabilidad técnica vía ADRs + diagrama anon.
+Métrica estrella: **Faithfulness 0.91 (RAGAS)** con reducción de respuestas alucinadas y trazabilidad técnica vía ADRs + diagrama anonimizado.
 
 Referencia: [ai-knowledge-platform-graphrag](https://github.com/Saxt35/ai-knowledge-platform-graphrag)
 
